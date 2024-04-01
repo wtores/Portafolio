@@ -1,0 +1,391 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#7ecdfb;
+    --secundary-color:#0462a0;
+    --footer:#bae3fd;
+}
+header nav {
+    width: 100%;
+    background:var(--primary-color);
+}
+header {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    padding: 10px 60px;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+margin: 5px 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#000;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 15px;
+    transition:.5s;
+}
+
+ul li a:hover{
+    color:var(--secundary-color) ;
+}
+
+#hero{
+width: 100%;
+background: url(../img/fondo1.png);
+background-size: cover;
+padding: 180px 0 200px;
+position: relative;
+z-index: 2;
+text-align: center;
+}
+
+#hero .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0462a0;
+    opacity: 0.8;
+}
+#hero h4{
+    color:#fff; 
+    text-shadow: 
+   -2px -1px 0 #000,  
+    2px -1px 0 #000,
+   -2px  1px 0 #000,
+    2px  1px 0 #000;
+    position: relative;
+    z-index:2;
+}
+#hero h1,p{
+    color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.fila-1{
+    background-color:var(--primary-color);
+    padding: 5px;
+   margin-left: 300px;
+   margin-right: 300px;
+   margin-bottom: 20px;
+   position: relative;
+   z-index: 2;
+}
+
+#hero a{
+background-color: var(--primary-color);
+margin: 5px;
+font-size: 25px;
+padding: 9px 40px;
+border-radius: 10px;
+color: #fff;
+border-color: transparent;
+transition: .5s;
+cursor: pointer;
+position: relative;
+z-index: 2;
+}
+
+#hero a:hover{
+    background: var(--footer);
+    text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+}
+
+/* perfil profecional */
+
+#perfil {
+    position: relative;
+    width: 100%;
+    background:var(--secundary-color);
+    background-size: cover;
+    text-align: left;
+    padding: 90px;
+}
+
+#perfil .con{
+    position: relative;
+}
+
+
+
+#perfil .uno{
+    width: 268px;
+    height: 275px;
+    float: right;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#perfil .card3{
+
+    padding-left: 20px ;
+    padding-right: 90px;
+}
+
+#perfil h1{
+font-size: 50px;
+}
+
+#perfil p{
+    font-size: 20px;
+    }
+
+#perfil .fondo{
+    float: right;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* ESTILOS SECCION SKILLS */
+#Skz{
+    background:var(--secundary-color);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+#Skz h1{
+    color: #fff;
+text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+font-size: 50px;
+margin-bottom: 20px;
+}
+#Skz h3{
+    color: #fff;
+    text-shadow: 
+    -2px -1px 0 #000,  
+    2px -1px 0 #000,
+    -2px  1px 0 #000,
+    2px  1px 0 #000;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+#Skz p{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+#Skz .fila .col-sk .z{
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+#Skz .fila{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around ;
+    padding: 0;
+ }
+ #Skz img{
+    width: 97px;
+    height: 103px;
+    border-radius: 20px;
+}
+
+/* PROYECTOS */
+#pro{
+    background:var(--secundary-color);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+#pro h1{
+    color: #fff;
+text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+font-size: 50px;
+margin-bottom: 20px;
+}
+#pro h3{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 30px;
+    text-shadow: 
+    -2px -1px 0 #807878, 
+    2px -1px 0 #807878,
+    -2px  1px 0 #807878,
+    2px  1px 0 #807878;
+
+}
+#pro p{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+#pro img{
+    width: 121px;
+    height: 120px;
+    border-radius: 20px;
+}
+#pro .fila .col-pro{
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background: var(--primary-color);
+
+}
+#pro .fila{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around ;
+    padding: 16px;
+ }
+ #pro a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 400;
+    padding: 96px;
+    font-size: 20px;
+ }
+ #pro .k img{
+    width: 36px;
+    height: 38px;
+ }
+
+ /* HOBBIES */
+ #carouselExample{
+    background:var(--primary-color);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+#carouselExample h1{
+    color: #fff;
+text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+font-size: 50px;
+margin-bottom: 20px;
+}
+
+.carousel-item img{
+    width: 760px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+ }
+ /* Estudios */
+ #es{
+    width: 100%;
+    background: var(--secundary-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+    padding: 20px 0 80px 0;
+    text-align: center;
+}
+
+#es h2{
+    color: #fff;
+    text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+    padding: 40px;
+    font-size: 40px;
+}
+
+#es .img-estudio{
+height: 250px;
+
+}
+
+#es .img-estudio img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    transition: .1s;
+}
+
+#es .img-estudio img:hover{
+    transform: translateY(-40px);
+}
+
+#es .desc-estudio{
+    height: 180px;
+    background: var(--primary-color);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+#es .desc-estudio h4{
+
+    font-size: 20px;
+}
+#es .desc-estudio p{
+
+    font-size: 15px;
+}
+/* Contactos */
+#conta{
+    background:var(--footer);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+#conta h1{
+    color: #fff;
+text-shadow: 
+-2px -1px 0 #000,  
+2px -1px 0 #000,
+-2px  1px 0 #000,
+2px  1px 0 #000;
+font-size: 50px;
+margin-bottom: 20px;
+}
+#conta .oo img{
+    width: 36px;
+    height: 38px;
+    margin: 50px;
+ }
+ 
